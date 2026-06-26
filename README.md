@@ -1,51 +1,62 @@
+# Secret Tab Extension Website
 
+A professional, modern, and production-ready showcase website for the Julex Chromium extension. Built with performance, accessibility, and clean design in mind.
 
-Secret Tab
+## 🚀 Features
 
-Extension Chromium pour cacher des onglets sensibles — 100 % local.
+- **Modern UI/UX**: Inspired by Vercel and Notion, with a clean and minimal aesthetic.
+- **Dark Mode by Default**: Automatic system detection with a manual toggle and persistence.
+- **Responsive Design**: Fully optimized for Desktop, Laptop, Tablet, and Mobile devices.
+- **Glassmorphism**: Elegant use of transparency and blur effects.
+- **Smooth Animations**: Reveal-on-scroll and CSS-based transitions.
+- **Zero Dependencies**: Built with Vanilla HTML5, CSS3, and JavaScript. No frameworks or CDNs.
+- **SEO Optimized**: Complete meta tags, Open Graph, and Twitter Cards support.
+- **Accessible**: Semantic HTML and ARIA labels for better screen reader support.
 
-Utilisation
+## 📁 Project Structure
 
+```text
+extension-website/
+├── index.html          # Homepage
+├── download.html       # Download page
+├── installation.html   # Step-by-step guide
+├── docs.html           # Documentation with search
+├── faq.html            # FAQ with accordion
+├── privacy.html        # Professional privacy policy
+├── 404.html            # Custom 404 error page
+├── LICENSE             # MIT License
+├── assets/
+│   ├── css/
+│   │   ├── style.css       # Main styles and variables
+│   │   └── animations.css  # Reusable animations
+│   ├── js/
+│   │   ├── app.js          # Core interactions
+│   │   ├── theme.js        # Theme management
+│   │   └── search.js       # Docs search logic
+│   └── images/
+│       ├── logo.svg        # Project logo
+│       ├── favicon.svg     # Favicon
+│       ├── screenshots/    # UI Screenshots
+│       └── downloads/      # Extension ZIP package
+```
 
+## 🛠️ Installation & Development
 
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/bllnoxj/infogareteststyle.git
+   ```
+2. **Open the project**:
+   Simply open `index.html` in any modern web browser.
+3. **Publish to GitHub Pages**:
+   Push the code to your GitHub repository and enable GitHub Pages in the repository settings.
 
+## 📸 Screenshots
 
-Créez un mot de passe
+*Screenshots will be placed in the `assets/images/screenshots/` directory.*
 
+## 📄 License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Cacher — ajoute l'onglet actif à la liste
-
-
-
-Ouvrir — rouvre un site caché (sans ressaisir le mot de passe pendant 2 h)
-
-
-
-Verrouiller — ferme la session
-
-Accès direct à un site caché (barre d'adresse, favori) → fausse page « site inaccessible ».
-
-Session
-
-
-
-
-
-Mot de passe demandé une seule fois toutes les 2 heures
-
-
-
-Fermer le popup ne demande pas le mot de passe à nouveau
-
-
-
-Mot de passe perso par site : optionnel à la mise en cache
-
-Installation
-
-chrome://extensions → Mode développeur → Charger l'extension non empaquetée → dossier seecreet-folder
-
-
-
-Made by Jules POMPEY / Julex
+© Julex 2026. Developed by Jules POMPEY.
